@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#8EC5FC,#E0C3FC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selector{
+    width: 400px;
+}
+#select-field{
+    width: 100%;
+ background-color: rgb(255, 255, 255, 0.4);
+ border-radius: 6px;
+ padding: 10px 20px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px 25px;
+ margin-bottom: 20px;
+ cursor: pointer;
+}
+
+#select-field img{
+    width: 12px;
+    transition: transform 0.5s;
+}
+#select-field p{
+    font-size: 17px;
+    font-weight: 800;
+}
+
+
+.options{
+    position: relative;
+    padding: 10px 0 10px 70px;
+    width: 100%;
+     background-color: rgb(255, 255, 255, 0.4);
+     border-radius: 6px;
+     overflow: hidden;
+     list-style: none;
+     box-sizing: border-box;
+}
+
+.options:hover{
+    background: rgb(255, 255, 255 ,.8);
+}
+
+.options img{
+    width: 25px;
+    position: absolute;
+    top: 10px;
+     left: 15px;
+}
+
+   
+/* javascript */
+
+.hide{
+  visibility: hidden;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.list{
+    width: 100%;
+    background: rgb(255, 255, 255, 0.8);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.option img{
+width: 25px;
+position: absolute;
+top: 12px;
+left: 25px;
+} */
